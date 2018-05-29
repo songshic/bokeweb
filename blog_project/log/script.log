@@ -1,0 +1,1156 @@
+2018-05-11 15:42:46,477 [Thread-2:10896] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 12, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\master\Anaconda3\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\context.py", line 250, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes 0 positional arguments but 1 was given
+2018-05-11 15:43:04,080 [Thread-6:5808] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 12, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\master\Anaconda3\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\context.py", line 250, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes 0 positional arguments but 1 was given
+2018-05-12 18:12:51,497 [Thread-8:9904] [django.request:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-12 19:05:15,366 [Thread-2:14628] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 14, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template_name, skip=history,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 488, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 549, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 27: 'for'. Looking for one of: empty, endfor.
+2018-05-12 19:07:33,962 [Thread-3:6224] [django.request:93] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-12 19:07:39,719 [Thread-6:13708] [django.request:93] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-12 19:07:42,015 [Thread-7:8184] [django.request:93] [base:get_response] [WARNING]- Not Found: /index
+2018-05-12 21:48:30,934 [Thread-4:10836] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 33, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 668, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '}' from 'article.title}'
+2018-05-12 23:06:49,813 [Thread-2:5156] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 36, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template_name, skip=history,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 663, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 723, in args_check
+    (name, alen - dlen, plen))
+django.template.exceptions.TemplateSyntaxError: slice requires 2 arguments, 1 provided
+2018-05-12 23:32:25,609 [Thread-20:2300] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 55, in archive
+    return render(request, 'archive.html', locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 668, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/month' from 'year/month'
+2018-05-13 17:40:24,162 [Thread-3:10024] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 38, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'archive' with no arguments not found. 1 pattern(s) tried: ['$archive$']
+2018-05-13 17:40:24,164 [Thread-2:9280] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 38, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'archive' with no arguments not found. 1 pattern(s) tried: ['$archive$']
+2018-05-13 17:40:30,414 [Thread-5:13260] [django.request:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-13 17:52:49,142 [Thread-4:6516] [django.request:93] [base:get_response] [WARNING]- Not Found: /archive/index.html
+2018-05-13 17:59:02,085 [Thread-7:15304] [django.request:93] [base:get_response] [WARNING]- Not Found: /archive/index.html
+2018-05-13 18:23:16,576 [Thread-9:14244] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 35, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\master\Anaconda3\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\context.py", line 250, in bind_template
+    updates.update(processor(self.request))
+  File "F:\django_1\boke\blog_project\blog\views.py", line 17, in global_setting
+    print([Article.object.get(pk=comment['article']) for comment in comment_list])
+  File "F:\django_1\boke\blog_project\blog\views.py", line 17, in <listcomp>
+    print([Article.object.get(pk=comment['article']) for comment in comment_list])
+AttributeError: type object 'Article' has no attribute 'object'
+2018-05-13 18:23:16,577 [Thread-4:4656] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 35, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\master\Anaconda3\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\context.py", line 250, in bind_template
+    updates.update(processor(self.request))
+  File "F:\django_1\boke\blog_project\blog\views.py", line 17, in global_setting
+    print([Article.object.get(pk=comment['article']) for comment in comment_list])
+  File "F:\django_1\boke\blog_project\blog\views.py", line 17, in <listcomp>
+    print([Article.object.get(pk=comment['article']) for comment in comment_list])
+AttributeError: type object 'Article' has no attribute 'object'
+2018-05-13 18:23:17,370 [Thread-2:10592] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/comment/add/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\master\Anaconda3\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\context.py", line 250, in bind_template
+    updates.update(processor(self.request))
+  File "F:\django_1\boke\blog_project\blog\views.py", line 17, in global_setting
+    print([Article.object.get(pk=comment['article']) for comment in comment_list])
+  File "F:\django_1\boke\blog_project\blog\views.py", line 17, in <listcomp>
+    print([Article.object.get(pk=comment['article']) for comment in comment_list])
+AttributeError: type object 'Article' has no attribute 'object'
+2018-05-13 18:31:45,153 [Thread-2:4664] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 36, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template_name, skip=history,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 668, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '|' from 'article.title|'
+2018-05-13 21:39:57,938 [Thread-10:13244] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view blog.views.article didn't return an HttpResponse object. It returned None instead.
+2018-05-13 21:45:15,516 [Thread-2:6796] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    return parser.libraries[name]
+KeyError: 'myfilter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 93, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1029, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'myfilter' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2018-05-13 21:45:46,734 [Thread-6:11640] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 93, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 662, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 574, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'month_to_upper'
+2018-05-13 21:45:57,429 [Thread-8:4244] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 93, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 662, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 574, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'month_to_upper'
+2018-05-13 21:46:16,415 [Thread-10:10024] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 21:51:00,092 [Thread-24:5772] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 21:51:41,593 [Thread-30:9772] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 21:51:45,951 [Thread-33:3212] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 21:51:55,406 [Thread-36:12376] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 21:54:45,640 [Thread-39:11292] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 21:56:15,354 [Thread-41:10864] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 21:57:26,925 [Thread-43:6840] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 21:57:31,577 [Thread-45:12284] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 21:59:58,191 [Thread-47:14844] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:02:00,870 [Thread-49:12688] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:02:02,739 [Thread-51:3580] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:03:21,133 [Thread-53:5772] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:03:24,224 [Thread-55:9424] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:03:26,093 [Thread-56:7284] [django.request:93] [base:get_response] [WARNING]- Not Found: /+'article/
+2018-05-13 22:03:26,260 [Thread-57:10608] [django.request:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-13 22:03:29,177 [Thread-58:2232] [django.request:93] [base:get_response] [WARNING]- Not Found: /+'article/
+2018-05-13 22:04:40,508 [Thread-63:14280] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:04:41,524 [Thread-65:9964] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:04:41,955 [Thread-67:11708] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:04:42,452 [Thread-69:13556] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:04:48,245 [Thread-76:7568] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:04:49,747 [Thread-90:8048] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:05:24,924 [Thread-93:12300] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:05:27,947 [Thread-95:10928] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:05:35,901 [Thread-98:14916] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:05:41,268 [Thread-100:12092] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:05:46,404 [Thread-102:9428] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:08:25,024 [Thread-104:13096] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:11:28,802 [Thread-115:6040] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-13 22:13:15,654 [Thread-174:13120] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/images/default.jpg
+2018-05-15 14:57:50,608 [Thread-2:15080] [django.request:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-05-15 15:07:27,909 [Thread-11:3516] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    return parser.libraries[name]
+KeyError: 'myfilter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 98, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1029, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'myfilter' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2018-05-15 15:20:46,004 [Thread-12:15172] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    return parser.libraries[name]
+KeyError: 'myfilter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 98, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1029, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'myfilter' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2018-05-15 15:20:49,458 [Thread-13:7956] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    return parser.libraries[name]
+KeyError: 'myfilter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 98, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 1029, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'myfilter' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+static
+staticfiles
+tz
+2018-05-15 16:10:38,403 [Thread-2:6508] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 99, in article
+    print(comment_list)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\db\models\base.py", line 513, in __repr__
+    return '<%s: %s>' % (self.__class__.__name__, self)
+TypeError: __str__ returned non-string (type int)
+2018-05-15 16:18:33,405 [Thread-10:14148] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 99, in article
+    print(comment_list)
+OSError: raw write() returned invalid length 60 (should have been between 0 and 30)
+2018-05-15 16:30:53,074 [Thread-10:14488] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 100, in article
+    return render(request, 'article.html', locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reg' not found. 'reg' is not a valid view function or pattern name.
+2018-05-15 16:43:26,404 [Thread-12:8840] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 98, in article
+    print(comment_list)
+UnboundLocalError: local variable 'comment_list' referenced before assignment
+2018-05-15 16:43:30,653 [Thread-13:11364] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 98, in article
+    print(comment_list)
+UnboundLocalError: local variable 'comment_list' referenced before assignment
+2018-05-15 17:10:57,348 [Thread-24:12456] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/None
+2018-05-15 17:27:02,640 [Thread-4:2584] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/None
+2018-05-15 21:55:44,030 [Thread-10:4672] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 53, in archive
+    return render(request, 'archive.html', locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader_tags.py", line 233, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\defaulttags.py", line 815, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 454, in parse
+    raise self.error(token, e)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 452, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 568, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 668, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'article.comment_set.all.count()'
+2018-05-15 22:44:32,430 [Thread-5:10000] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/None
+2018-05-15 22:44:45,210 [Thread-7:8964] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/None
+2018-05-15 22:44:50,618 [Thread-8:14952] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/None
+2018-05-15 22:51:57,441 [Thread-8:9352] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/index.html
+2018-05-15 23:38:14,215 [Thread-2:104] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 41, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\master\Anaconda3\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\context.py", line 250, in bind_template
+    updates.update(processor(self.request))
+  File "F:\django_1\boke\blog_project\blog\views.py", line 18, in global_setting
+    article_click_count = Article.objects.all('click_count')
+TypeError: all() takes 1 positional argument but 2 were given
+2018-05-15 23:40:05,474 [Thread-2:14728] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 40, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\master\Anaconda3\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\context.py", line 250, in bind_template
+    updates.update(processor(self.request))
+  File "F:\django_1\boke\blog_project\blog\views.py", line 17, in global_setting
+    article_click_count = Article.objects.get('click_count')
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\db\models\query.py", line 394, in get
+    clone = self.filter(*args, **kwargs)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\db\models\query.py", line 836, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\db\models\query.py", line 854, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1253, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1277, in _add_q
+    split_subq=split_subq,
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1150, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+2018-05-16 00:01:48,780 [Thread-3:13684] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 92, in article
+    article.increase_click()
+  File "F:\django_1\boke\blog_project\blog\models.py", line 85, in increase_click
+    self.save(update_fields=['clock_count'])
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\db\models\base.py", line 715, in save
+    % ', '.join(non_model_fields))
+ValueError: The following fields do not exist in this model or are m2m fields: clock_count
+2018-05-16 00:18:27,629 [Thread-2:14676] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 40, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\master\Anaconda3\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\context.py", line 250, in bind_template
+    updates.update(processor(self.request))
+  File "F:\django_1\boke\blog_project\blog\views.py", line 17, in global_setting
+    article_click_count = [Article.objects.all('click_count').order_by('-click_count')]
+TypeError: all() takes 1 positional argument but 2 were given
+2018-05-16 00:20:28,235 [Thread-4:15276] [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_1\boke\blog_project\blog\views.py", line 40, in index
+    return render(request,'index.html',locals())
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\base.py", line 173, in render
+    with context.bind_template(self):
+  File "C:\Users\master\Anaconda3\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Users\master\Anaconda3\lib\site-packages\django\template\context.py", line 250, in bind_template
+    updates.update(processor(self.request))
+  File "F:\django_1\boke\blog_project\blog\views.py", line 17, in global_setting
+    article_click_count = [Article_click for Article_click in Article.objects.values('click_count').order_by('-click_count')]
+TypeError: all() takes 1 positional argument but 2 were given
+2018-05-16 00:50:09,543 [Thread-58:13732] [django.request:93] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-16 00:51:02,462 [Thread-74:8356] [django.request:93] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-16 00:52:55,717 [Thread-2:7736] [django.request:93] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-16 00:54:22,394 [Thread-8:5336] [django.request:93] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-16 00:54:24,986 [Thread-9:13216] [django.request:93] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-16 00:54:26,655 [Thread-10:14156] [django.request:93] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-16 00:54:28,182 [Thread-11:14736] [django.request:93] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-16 00:55:11,187 [Thread-3:11348] [django.request:93] [base:get_response] [WARNING]- Not Found: /index/
+2018-05-16 01:02:35,630 [Thread-13:12968] [django.request:93] [base:get_response] [WARNING]- Not Found: /index.html
+2018-05-16 01:17:02,148 [Thread-67:5508] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/index.html
+2018-05-16 01:17:03,853 [Thread-68:10560] [django.request:93] [base:get_response] [WARNING]- Not Found: /article/index.html
